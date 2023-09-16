@@ -1,0 +1,5 @@
+/.vs
+/utils/component/__pycache__
+/utils/constants/__pycache__
+/utils/__pycache__
+/.idea

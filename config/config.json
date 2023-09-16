@@ -1,0 +1,29 @@
+{
+    "Laptop":{
+        "search?q=" : "laptop",
+        "&as-show=" : "on",
+        "&as=" : "off",
+        "&sort=" : "price_asc",
+        "&p[]=facets.graphics_memory_type[]=" : ["GDDR6"],
+        "&p[]=facets.fulfilled_by[]=" : ["Plus (FAssured)"],
+        "&p[]=facets.processor_generation[]=" : ["13th Gen", "12th Gen"],
+        "&p[]=facets.system_memory[]=" : ["64 GB", "32 GB", "16 GB"],
+        "&p[]=facets.ram_type[]=" : ["LPDDR5", "DDR5"],
+        "&p[]=facets.dedicated_graphics_memory[]=" : ["16 GB", "12 GB", "8 GB"],
+        "&p[]=facets.processor[]=" : ["Ryzen 9 16 Core", "Core i9", "Core i7"],
+        "&p[]=facets.price_range.from=" : ["50000"],
+        "&p[]=facets.price_range.to=" : ["160000"]
+	},
+    "Monitor": {
+        "search?q=": "monitor",
+        "&as-show=": "on",
+        "&as=": "off",
+        "&sort=": "price_asc",
+        "&p[]=facets.fulfilled_by[]=": "Plus (FAssured)",
+        "&p[]=facets.panel_type[]=": [ "IPS Panel" ],
+        "&p[]=facets.display_size[]=": [ "28 inch  Above", "25 inch - 28 inch" ],
+        "&p[]=facets.price_range.from=": [ "12000" ],
+        "&p[]=facets.price_range.to=": [ "30000" ],
+        "&p[]=facets.screen_resolution[]=": [ "4K Ultra HD", "Quad HD", "WQHD", "UHD", "UWQHD", "WFHD" ]
+    }
+}
