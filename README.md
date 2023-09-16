@@ -11,6 +11,13 @@
 - Open `utils/constants/config.py` and update the full file-path of the `sqlite db` and `json` file.
 - Open `db/products.db` using `Db Browser for SQLite` and run the `scripts/create_table.sql` script against the db.
 - Add `TELEGRAM_BOT_KEY` and `TELEGRAM_CHAT_ID` in the environment variables.
+- How to add entry in `config/config.json`.
+    - Search for a product in flipkart.
+    - Apply all the required filter.
+    - Copy the url from the browser.
+    - Run `tools/url_to_json_converter.py`.
+    - Json entry will be copied to clipboard.
+    - Open `config/config.json` and paste the json content from the clipboard at the end of the json file.
 
 #### ➡ Usage
 ```bash
