@@ -1,6 +1,5 @@
 import os
-import requests
-import urllib.parse
+import telebot
 
 
 class TelegramClient:
@@ -11,9 +10,7 @@ class TelegramClient:
         if self.telegram_bot_key is None or self.telegram_chat_id is None:
             raise Exception("Please configure TELEGRAM_BOT_KEY and TELEGRAM_CHAT_ID in environment variables.")
 
-        self.telegram_post_url = r"https://api.telegram.org/bot{}/sendMessage?chat_id={}&text=".format(
-            self.telegram_bot_key, self.telegram_chat_id)
+        self.bot = telebot.TeleBot(self.telegram_bot_key)
 
     def sent_message(self, message):
-        url = "{}{}".format(self.telegram_post_url, urllib.parse.quote_plus(message))
-        requests.post(url)
+        self.bot.send_message(self.telegram_chat_id, message)
