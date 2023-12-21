@@ -1,2 +1,5 @@
-SQLITE_CONNECTION_STRING = r"C:\Users\-\Desktop\FlipkartDealNotifier\db\products.db"
-JSON_PATH = r"C:\Users\-\Desktop\FlipkartDealNotifier\config\config.json"
+import os
+
+
+SQLITE_CONNECTION_STRING = os.path.join('db', 'products.db')
+JSON_PATH = os.path.join('config', 'config.json')

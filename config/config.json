@@ -1,29 +1,136 @@
 {
-    "Laptop":{
-        "search?q=" : "laptop",
-        "&as-show=" : "on",
-        "&as=" : "off",
-        "&sort=" : "price_asc",
-        "&p[]=facets.graphics_memory_type[]=" : ["GDDR6"],
-        "&p[]=facets.fulfilled_by[]=" : ["Plus (FAssured)"],
-        "&p[]=facets.processor_generation[]=" : ["13th Gen", "12th Gen"],
-        "&p[]=facets.system_memory[]=" : ["64 GB", "32 GB", "16 GB"],
-        "&p[]=facets.ram_type[]=" : ["LPDDR5", "DDR5"],
-        "&p[]=facets.dedicated_graphics_memory[]=" : ["16 GB", "12 GB", "8 GB"],
-        "&p[]=facets.processor[]=" : ["Ryzen 9 16 Core", "Core i9", "Core i7"],
-        "&p[]=facets.price_range.from=" : ["50000"],
-        "&p[]=facets.price_range.to=" : ["160000"]
-	},
+    "Laptop": {
+        "search?q=": "laptop",
+        "&as-show=": "on",
+        "&as=": "off",
+        "&sort=": "price_asc",
+        "&p[]=facets.graphics_memory_type[]=": [
+            "GDDR6"
+        ],
+        "&p[]=facets.fulfilled_by[]=": [
+            "Plus (FAssured)"
+        ],
+        "&p[]=facets.processor_generation[]=": [
+            "13th Gen"
+        ],
+        "&p[]=facets.system_memory[]=": [
+            "64 GB",
+            "32 GB",
+            "16 GB"
+        ],
+        "&p[]=facets.price_range.from=": [
+            "40000"
+        ],
+        "&p[]=facets.price_range.to=": [
+            "130000"
+        ],
+        "&p[]=facets.dedicated_graphics_memory[]=": [
+            "16 GB",
+            "12 GB",
+            "8 GB"
+        ],
+        "&p[]=facets.processor[]=": [
+            "Core i9",
+            "Core i7"
+        ]
+    },
     "Monitor": {
         "search?q=": "monitor",
         "&as-show=": "on",
         "&as=": "off",
         "&sort=": "price_asc",
-        "&p[]=facets.fulfilled_by[]=": "Plus (FAssured)",
-        "&p[]=facets.panel_type[]=": [ "IPS Panel" ],
-        "&p[]=facets.display_size[]=": [ "28 inch  Above", "25 inch - 28 inch" ],
-        "&p[]=facets.price_range.from=": [ "12000" ],
-        "&p[]=facets.price_range.to=": [ "30000" ],
-        "&p[]=facets.screen_resolution[]=": [ "4K Ultra HD", "Quad HD", "WQHD", "UHD", "UWQHD", "WFHD" ]
+        "&p[]=facets.fulfilled_by[]=": [
+            "Plus (FAssured)"
+        ],
+        "&p[]=facets.panel_type[]=": [
+            "IPS Panel"
+        ],
+        "&p[]=facets.display_size[]=": [
+            "25 inch - 28 inch",
+            "28 inch  Above"
+        ],
+        "&p[]=facets.price_range.from=": [
+            "15000"
+        ],
+        "&p[]=facets.price_range.to=": [
+            "27000"
+        ],
+        "&p[]=facets.screen_resolution[]=": [
+            "4K Ultra HD",
+            "Quad HD",
+            "UHD",
+            "UWQHD",
+            "WQHD"
+        ],
+        "&p[]=facets.response_time[]=": [
+            "5 ms and Below"
+        ]
+    },
+    "Smartwatch": {
+        "search?q=": "smartwatch",
+        "&as-show=": "on",
+        "&as=": "off",
+        "&sort=": "price_asc",
+        "&p[]=facets.display_type[]=": [
+            "AMOLED",
+            "OLED",
+            "OLED Retina Display",
+            "Retina Display",
+            "Super AMOLED"
+        ],
+        "&p[]=facets.features[]=": [
+            "GPS"
+        ],
+        "&p[]=facets.fulfilled_by[]=": [
+            "Plus (FAssured)"
+        ],
+        "&p[]=facets.price_range.from=": [
+            "1500"
+        ],
+        "&p[]=facets.price_range.to=": [
+            "7000"
+        ],
+        "&p[]=facets.brand[]=": [
+            "SAMSUNG",
+            "AMAZFIT",
+            "boAt",
+            "huami",
+            "Huawei",
+            "realme",
+            "Honor",
+            "APPLE",
+            "BOLTT"
+        ]
+    },
+    "Helmet": {
+        "search?q=": "helmet",
+        "&as-show=": "on",
+        "&as=": "off",
+        "&sort=": "price_asc",
+        "&p[]=facets.size[]=": [
+            "M"
+        ],
+        "&p[]=facets.fulfilled_by[]=": [
+            "Plus (FAssured)"
+        ],
+        "&p[]=facets.price_range.from=": [
+            "3000"
+        ],
+        "&p[]=facets.price_range.to=": [
+            "8000"
+        ],
+        "&p[]=facets.type[]=": [
+            "Full Face",
+            "Motocross"
+        ],
+        "&p[]=facets.brand[]=": [
+            "Axor",
+            "SMK",
+            "LS2"
+        ],
+        "&p[]=facets.ideal_for[]=": [
+            "Men",
+            "Boys"
+        ]
     }
 }
